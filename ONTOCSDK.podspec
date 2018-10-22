@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -116,11 +116,10 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
+  #spec.framework  = "neoutils"
+  spec.frameworks = "neoutils"
 
-  spec.framework  = "neoutils"
-  #spec.frameworks = "SomeFramework", "AnotherFramework"
-
-  #spec.library   = "neoutils"
+  spec.library   = "neoutils"
   #spec.libraries = "iconv", "xml2"
 
 
@@ -132,7 +131,7 @@ Pod::Spec.new do |spec|
 
   #spec.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  #spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/" }
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "AFNetworking", '~> 2.6.3'
   spec.dependency "AFJSONRPCClient", '~> 2.1.1'

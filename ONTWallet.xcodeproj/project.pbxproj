@@ -114,7 +114,6 @@
 		731EB0C020F8447300A1C4D0 /* ONTWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		731EB0CB20F8447300A1C4D0 /* ONTWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7347148321154BF400ADD665 /* ONTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONTAddress.h; sourceTree = "<group>"; };
-		7347148421154BF400ADD665 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
 		7347148521154BF400ADD665 /* ONTAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONTAttribute.h; sourceTree = "<group>"; };
 		7347148721154BF400ADD665 /* MnemonicCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MnemonicCode.m; sourceTree = "<group>"; };
 		7347148821154BF400ADD665 /* ChildNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNumber.h; sourceTree = "<group>"; };
@@ -389,7 +388,6 @@
 				734714B221154BF400ADD665 /* Categories */,
 				7347148621154BF400ADD665 /* Core */,
 				734714A021154BF400ADD665 /* Keys */,
-				7347148421154BF400ADD665 /* neoutils.framework */,
 				7347149521154BF400ADD665 /* ONTAccount.h */,
 				734714BF21154BF400ADD665 /* ONTAccount.m */,
 				7347148321154BF400ADD665 /* ONTAddress.h */,
