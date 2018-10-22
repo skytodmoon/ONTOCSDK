@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ONTWallet", "ONTWallet/**/*.{h,m}"
+  spec.source_files  = "ONTWallet", "ONTWallet/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,8 +134,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  s.dependency "AFNetworking", '~> 2.6.3'
-  s.dependency "AFJSONRPCClient", '~> 2.1.1'
-  s.dependency "MJExtension"
-  s.dependency "MTDates"
+  spec.dependency "AFNetworking", '~> 2.6.3'
+  spec.dependency "AFJSONRPCClient", '~> 2.1.1'
+  spec.dependency "MJExtension"
+  spec.dependency "MTDates"
 end
