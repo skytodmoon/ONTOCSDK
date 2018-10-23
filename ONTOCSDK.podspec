@@ -65,6 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.platform     = :ios, "9.0"
+  # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -119,6 +120,9 @@ Pod::Spec.new do |spec|
   #spec.framework  = "neoutils"
   #spec.frameworks = "neoutils"
   spec.ios.vendored_frameworks = 'neoutils.framework'
+
+  #spec.frameworks = "SomeFramework", "AnotherFramework"
+
   #spec.library   = "neoutils"
   #spec.libraries = "iconv", "xml2"
 
@@ -132,6 +136,7 @@ Pod::Spec.new do |spec|
   #spec.requires_arc = true
 
   #spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/" }
+  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "AFNetworking", '~> 2.6.3'
   spec.dependency "AFJSONRPCClient", '~> 2.1.1'
