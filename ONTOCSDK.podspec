@@ -94,6 +94,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "ONTWallet", "ONTWallet/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "ONTWallet/**/*.plist"
 
   #spec.public_header_files = "ONTWallet/**/*.h"
 
@@ -134,7 +135,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   #spec.requires_arc = true
-
+  spec.xcconfig = {"PRODUCT_BUNDLE_IDENTIFIER" => "com.medishares.ONTWallet" ,"DEVELOPMENT_TEAM" => "Qi Sun"}#,"DEVELOPMENT_TEAM" => "Qi Sun","allowProvisioningUpdates" => "allowProvisioningUpdates"
   #spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/" }
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
